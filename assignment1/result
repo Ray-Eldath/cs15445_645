@@ -1,0 +1,601 @@
+case 2
+------------------------------
+answer
+movie|Logistics|51420
+short|Kuriocity|461
+tvEpisode|Téléthon 2012|1800
+tvMiniSeries|Kôya no yôjinbô|1755
+tvMovie|ArtQuench Presents Spirit Art|2112
+tvSeries|The Sharing Circle|8400
+tvShort|Paul McCartney Backstage at Super Bowl XXXIX|60
+tvShort|The People Next Door|60
+tvSpecial|Katy Perry Live: Witness World Wide|5760
+video|Midnight Movie Madness: 50 Movie Mega Pack|5135
+videoGame|Flushy Fish VR: Just Squidding Around|1500
+
+sql
+movie|Logistics|51420
+short|Kuriocity|461
+tvEpisode|Téléthon 2012|1800
+tvMiniSeries|Kôya no yôjinbô|1755
+tvMovie|ArtQuench Presents Spirit Art|2112
+tvSeries|The Sharing Circle|8400
+tvShort|Paul McCartney Backstage at Super Bowl XXXIX|60
+tvSpecial|Katy Perry Live: Witness World Wide|5760
+video|Midnight Movie Madness: 50 Movie Mega Pack|5135
+videoGame|Flushy Fish VR: Just Squidding Around|1500
+
+diff
+8d7
+< tvShort|The People Next Door|60
+-------------------------------
+case 7
+------------------------------
+answer
+The Shawshank Redemption|9.27408375213064
+Pulp Fiction|8.87296068706845
+The Lord of the Rings: The Return of the King|8.87023538818413
+Schindler's List|8.85944837786486
+12 Angry Men|8.8274654312365
+Forrest Gump|8.77394665505175
+The Good, the Bad and the Ugly|8.73410047935658
+The Matrix|8.67379043068514
+The Lord of the Rings: The Two Towers|8.67073273467584
+Star Wars: Episode V - The Empire Strikes Back|8.66258036565461
+Goodfellas|8.65679704067696
+One Flew Over the Cuckoo's Nest|8.65294416076491
+The Mountain II|8.61725087838868
+City of God|8.54342805417796
+Gladiator|8.47143742708625
+Back to the Future|8.46332853886572
+Léon: The Professional|8.46292056565729
+Avengers: Infinity War|8.4506845289751
+Psycho|8.4373696976068
+Rear Window|8.41674755149826
+Once Upon a Time in the West|8.38089735258473
+WALL·E|8.36472733136252
+Raiders of the Lost Ark|8.36071764723241
+The Shining|8.35937143360229
+Alien|8.35552530090484
+Cinema Paradiso|8.3444698366033
+Apocalypse Now|8.34271721766924
+Grave of the Fireflies|8.34191265540178
+Oldboy|8.33209348956415
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb|8.3250687044724
+
+sql
+Battle of the Bastards|9.5747247728896
+Breaking Bad|9.45500675501648
+The Winds of Winter|9.45487872281867
+Game of Thrones|9.36587154339303
+The Shawshank Redemption|9.27569885305058
+The Spoils of War|9.16682745587724
+Rick and Morty|9.13294764860927
+Planet Earth|9.09056122646536
+Sherlock|9.03676073121663
+Planet Earth II|8.94606799641856
+True Detective|8.90600971463699
+Pulp Fiction|8.8750135729685
+The Lord of the Rings: The Return of the King|8.87249518495012
+Schindler's List|8.86252714889415
+12 Angry Men|8.83297242003677
+The Lion and the Rose|8.80719398340473
+The Dragon and the Wolf|8.79261866252079
+Face Off|8.784401893792
+Forrest Gump|8.77603884687495
+Please Remain Calm|8.75301013731881
+The Good, the Bad and the Ugly|8.73939248460647
+House of Cards|8.71364453808481
+The Office|8.68096909397364
+Narcos|8.67887949915869
+The Matrix|8.67602408431385
+The Lord of the Rings: The Two Towers|8.67322697380692
+Star Wars: Episode V - The Empire Strikes Back|8.66576937273201
+Leyla and Mecnun|8.6651884219501
+Goodfellas|8.66047891906664
+Arrested Development|8.65982434124669
+
+diff
+1,250c1,250
+< The Shawshank Redemption|9.27408375213064
+< Pulp Fiction|8.87296068706845
+< The Lord of the Rings: The Return of the King|8.87023538818413
+< Schindler's List|8.85944837786486
+< 12 Angry Men|8.8274654312365
+< Forrest Gump|8.77394665505175
+< The Good, the Bad and the Ugly|8.73410047935658
+< The Matrix|8.67379043068514
+< The Lord of the Rings: The Two Towers|8.67073273467584
+< Star Wars: Episode V - The Empire Strikes Back|8.66258036565461
+< Goodfellas|8.65679704067696
+< One Flew Over the Cuckoo's Nest|8.65294416076491
+< The Mountain II|8.61725087838868
+< City of God|8.54342805417796
+< Gladiator|8.47143742708625
+< Back to the Future|8.46332853886572
+< Léon: The Professional|8.46292056565729
+< Avengers: Infinity War|8.4506845289751
+< Psycho|8.4373696976068
+< Rear Window|8.41674755149826
+< Once Upon a Time in the West|8.38089735258473
+< WALL·E|8.36472733136252
+< Raiders of the Lost Ark|8.36071764723241
+< The Shining|8.35937143360229
+< Alien|8.35552530090484
+< Cinema Paradiso|8.3444698366033
+< Apocalypse Now|8.34271721766924
+< Grave of the Fireflies|8.34191265540178
+< Oldboy|8.33209348956415
+< Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb|8.3250687044724
+< Once Upon a Time in America|8.29149205920628
+< Spider-Man: Into the Spider-Verse|8.27944770565499
+< Inglourious Basterds|8.27361869242351
+< American Beauty|8.26993451202779
+< Reservoir Dogs|8.26439627161116
+< Requiem for a Dream|8.25798876833464
+< A Clockwork Orange|8.25742341547537
+< Toy Story 3|8.25734107724815
+< Scarface|8.25590438979589
+< Full Metal Jacket|8.25210853826772
+< Sunset Blvd.|8.23933898857354
+< Amadeus|8.21589004599775
+< Vertigo|8.21216347202948
+< Like Stars on Earth|8.20481373841464
+< Your Name.|8.19983566375586
+< North by Northwest|8.1975172347387
+< Batman Begins|8.17704665931913
+< V for Vendetta|8.17129916924205
+< Die Hard|8.16240649720068
+< Lock, Stock and Two Smoking Barrels|8.14585507926427
+< Casino|8.13629764272654
+< Unforgiven|8.12365074764615
+< The Apartment|8.12061011853697
+< Chinatown|8.10376481333931
+< My Neighbor Totoro|8.09442185609386
+< Green Book|8.09074160238658
+< Finding Nemo|8.07145216202776
+< Catch Me If You Can|8.06592479759894
+< The Grand Budapest Hotel|8.06129693202741
+< Blade Runner|8.06098971608469
+< Fargo|8.05647629910042
+< Prisoners|8.05390469414222
+< The Kid|8.05287532584739
+< Rush|8.03898582269203
+< Hacksaw Ridge|8.03551702468201
+< The Seventh Seal|8.03407390030423
+< The Princess Bride|8.03359206319394
+< Platoon|8.03211473247254
+< PK|8.02907703728921
+< Monty Python's Life of Brian|8.02901738104703
+< Gone with the Wind|8.01162552164356
+< Before Sunrise|8.00325016258364
+< Ben-Hur|7.98708858673506
+< The Elephant Man|7.98656566725627
+< The Treasure of the Sierra Madre|7.98183759819495
+< Aynabaji|7.97740941967294
+< Yojimbo|7.97326922828868
+< Star Wars: Episode VII - The Force Awakens|7.97147281541043
+< Slumdog Millionaire|7.97003387503103
+< Monsters, Inc.|7.96993549888079
+< Sin City|7.96864677307258
+< X-Men: Days of Future Past|7.96426564397762
+< Ratatouille|7.96198738026476
+< Jaws|7.95693515580935
+< Her|7.95337602084149
+< Cool Hand Luke|7.95284437581594
+< Akira|7.9466594640111
+< In the Name of the Father|7.94653731881204
+< Big Fish|7.94417520197508
+< Zootopia|7.94391037425039
+< Barry Lyndon|7.93804803727936
+< La Haine|7.93713874007203
+< Network|7.93673499353362
+< Ikiru|7.93587006088359
+< Harakiri|7.93442534185635
+< On the Waterfront|7.93384958766431
+< Drishyam|7.9316664137302
+< The Chaos Class Failed the Class|7.92209636316521
+< Magnolia|7.92151783450757
+< Swades|7.91791802696218
+< Children of Heaven|7.91488724265187
+< Tosun Pasa|7.91175384887872
+< Dog Day Afternoon|7.90497209143548
+< Before Sunset|7.90135907545106
+< Memories of Murder|7.89983909706083
+< Ip Man|7.89530989242938
+< Chak de! India|7.89380214739519
+< Munna Bhai M.B.B.S.|7.88766873353758
+< The 400 Blows|7.88236058087742
+< Elite Squad|7.88128931930257
+< Cinderella Man|7.87893854172733
+< Judgment at Nuremberg|7.87703872647609
+< Ayla: The Daughter of War|7.87111640888977
+< Toy Story 4|7.86727079414856
+< District 9|7.86716566170036
+< Edge of Tomorrow|7.86401183134919
+< Searching for Sugar Man|7.86361014282595
+< Thor: Ragnarok|7.86067171002219
+< Harry Potter and the Prisoner of Azkaban|7.86009831177006
+< The Handmaiden|7.86005695016839
+< Toy Story 2|7.85903363434152
+< The Bourne Identity|7.85871357953152
+< Three Colors: Red|7.8571771641382
+< Edward Scissorhands|7.85308436175456
+< Nightcrawler|7.85238182329928
+< Castle in the Sky|7.8494569785608
+< Paris, Texas|7.84540229570821
+< The Breakfast Club|7.84009539226878
+< Ghost in the Shell|7.8358170251987
+< Mulholland Dr.|7.83476463500115
+< Strangers on a Train|7.8340265331899
+< Papillon|7.83230035374453
+< The Raid 2|7.82177754544252
+< The Artist|7.81451845636192
+< The Man Who Shot Liberty Valance|7.8078751132418
+< True Romance|7.80358074659557
+< All the President's Men|7.80348137201329
+< A Streetcar Named Desire|7.80156298305092
+< My Name Is Khan|7.80054788180083
+< Patton|7.79504441225479
+< Tokyo Story|7.79422849952735
+< The Blues Brothers|7.79298260954459
+< The Man from Earth|7.78857212574483
+< Capernaum|7.78563829871188
+< Spider-Man: Far from Home|7.78561846386015
+< Vikram Vedha|7.78373473224346
+< Titanic|7.78157715805354
+< The Hobbit: An Unexpected Journey|7.77554863836764
+< The Passion of Joan of Arc|7.77408091487195
+< High and Low|7.77213704112255
+< Sing Street|7.76915812623775
+< The Legend of 1900|7.76815835496063
+< Elite Squad: The Enemy Within|7.76812044894699
+< Fanny and Alexander|7.76800472456941
+< Taken|7.76769012246336
+< The Straight Story|7.76752395340217
+< Kahaani|7.76720011579587
+< Ocean's Eleven|7.76364685071376
+< The Sea Inside|7.76289022497323
+< O.J.: Made in America|7.76250676256312
+< Before Midnight|7.76132220796731
+< Home|7.76025351500213
+< Back to the Future Part II|7.76009005121133
+< Spring, Summer, Fall, Winter... and Spring|7.7592446422894
+< Manhattan|7.7591232226754
+< Crash|7.757187612945
+< The Girl with the Dragon Tattoo|7.75600754037541
+< Big Hero 6|7.7544767707715
+< Predator|7.75096576853116
+< Spartacus|7.75079774492003
+< Isle of Dogs|7.7494869658895
+< The Fighter|7.74677127042658
+< The Game|7.7466716184388
+< The Big Short|7.7461656518056
+< Moonrise Kingdom|7.74269388072724
+< Pather Panchali|7.74145616936336
+< Doctor Zhivago|7.74112370242397
+< Apocalypto|7.73848649857271
+< About Time|7.7377698449424
+< Gattaca|7.73647859452984
+< What Ever Happened to Baby Jane?|7.73539364991903
+< The Marathon Family|7.73428987458458
+< Crouching Tiger, Hidden Dragon|7.73132118708057
+< Sunrise|7.72522570382843
+< Manchester by the Sea|7.72481321224648
+< La Dolce Vita|7.72473610906825
+< Halloween|7.72149520973176
+< Sherlock Jr.|7.72122901074544
+< What's Eating Gilbert Grape|7.71837046863796
+< Diabolique|7.71738924368521
+< Remember the Titans|7.7131373150204
+< Amour|7.71206424086562
+< Earthlings|7.71112168098164
+< Hidden Figures|7.70836846509536
+< The Boy in the Striped Pajamas|7.70750686722645
+< Throne of Blood|7.70486190012118
+< Nosferatu|7.70479615314119
+< The Best Years of Our Lives|7.70404091573498
+< La Strada|7.7035894202021
+< Blue Velvet|7.70348849922288
+< Ed Wood|7.70011913851453
+< Carry On, Munna Bhai|7.6960703370653
+< The Insider|7.69589363902872
+< Rio Bravo|7.69547902962826
+< Do the Right Thing|7.69470637286005
+< G.O.R.A.|7.69143691201405
+< John Wick: Chapter 3 - Parabellum|7.69042140474976
+< The Big Sleep|7.69022732193082
+< The Best of Youth|7.68939089676166
+< The Wild Bunch|7.68732321899666
+< Evil Dead II|7.68698809399903
+< Airlift|7.68482585880285
+< Who's Singin' Over There?|7.68275319170322
+< The King of the Street Cleaners|7.68007124396815
+< Blue Is the Warmest Color|7.67888277323536
+< 300|7.67811080177943
+< The Hangover|7.67745136243525
+< The Chaos Class Is on Vacation|7.67701815540533
+< Kramer vs. Kramer|7.6734998783239
+< Special 26|7.67149062884843
+< Harold and Maude|7.67125075421178
+< Breathless|7.66994880180493
+< 3-Iron|7.66894856428393
+< Glory|7.66830445780438
+< Awakenings|7.66753775055519
+< Star Trek Into Darkness|7.66655348768595
+< To Be or Not to Be|7.66618772896992
+< A Silent Voice|7.66616985054611
+< Get Out|7.66418042868228
+< The Fifth Element|7.66340814153364
+< Zodiac|7.66276470401316
+< Empire of the Sun|7.66123857830932
+< Lost in Translation|7.66075124608843
+< Man with a Movie Camera|7.66048361595785
+< Tangled|7.66012044434097
+< Once|7.65980150013791
+< Midnight in Paris|7.65893069763627
+< The King of Kong: A Fistful of Quarters|7.65818054427474
+< Wreck-It Ralph|7.6578968805438
+< The Salt of the Earth|7.6573311856226
+< The Fault in Our Stars|7.65410038215701
+< Time of the Gypsies|7.65354312829129
+< Lucky Number Slevin|7.64972806598217
+< Whisper of the Heart|7.64876091986559
+< O Brother, Where Art Thou?|7.64584931637816
+< Talvar|7.64560053612369
+< Donnie Brasco|7.6439766475949
+< As Good as It Gets|7.64393017265743
+< The Motorcycle Diaries|7.64367118785382
+< The Girl with the Red Scarf|7.64023075719264
+---
+> Battle of the Bastards|9.5747247728896
+> Breaking Bad|9.45500675501648
+> The Winds of Winter|9.45487872281867
+> Game of Thrones|9.36587154339303
+> The Shawshank Redemption|9.27569885305058
+> The Spoils of War|9.16682745587724
+> Rick and Morty|9.13294764860927
+> Planet Earth|9.09056122646536
+> Sherlock|9.03676073121663
+> Planet Earth II|8.94606799641856
+> True Detective|8.90600971463699
+> Pulp Fiction|8.8750135729685
+> The Lord of the Rings: The Return of the King|8.87249518495012
+> Schindler's List|8.86252714889415
+> 12 Angry Men|8.83297242003677
+> The Lion and the Rose|8.80719398340473
+> The Dragon and the Wolf|8.79261866252079
+> Face Off|8.784401893792
+> Forrest Gump|8.77603884687495
+> Please Remain Calm|8.75301013731881
+> The Good, the Bad and the Ugly|8.73939248460647
+> House of Cards|8.71364453808481
+> The Office|8.68096909397364
+> Narcos|8.67887949915869
+> The Matrix|8.67602408431385
+> The Lord of the Rings: The Two Towers|8.67322697380692
+> Star Wars: Episode V - The Empire Strikes Back|8.66576937273201
+> Leyla and Mecnun|8.6651884219501
+> Goodfellas|8.66047891906664
+> Arrested Development|8.65982434124669
+> One Flew Over the Cuckoo's Nest|8.65695439247826
+> Open Wide, O Earth|8.65375805792946
+> The Mountain II|8.6448064571295
+> Seinfeld|8.64361812129496
+> The Watchers on the Wall|8.64301339116358
+> Peaky Blinders|8.63605696517344
+> Baelor|8.60330632136194
+> Home|8.57310038616471
+> City of God|8.5485638455111
+> Attack on Titan|8.53858706311501
+> Freaks and Geeks|8.52587114522918
+> Beyond the Wall|8.51970577148986
+> A Scandal in Belgravia|8.50509271588703
+> Daredevil|8.50311128069508
+> TVF Pitchers|8.4919904293061
+> The Filthy Frank Show|8.4787239425981
+> Battlestar Galactica|8.47778735617872
+> Gladiator|8.47421142864035
+> Dark|8.47192761735326
+> Fire and Blood|8.47145083610098
+> Back to the Future|8.4668900769136
+> Léon: The Professional|8.46652172612707
+> Sons of Anarchy|8.46549227146442
+> Avengers: Infinity War|8.45547405524354
+> Pride and Prejudice|8.44973037860705
+> Psycho|8.44345236238275
+> The Queen's Justice|8.43983005612003
+> Parks and Recreation|8.43130682815347
+> Six Feet Under|8.42745553380599
+> Rear Window|8.42483304233358
+> Shameless|8.42440509841019
+> Fawlty Towers|8.4113073178063
+> Suits|8.40969297234527
+> Dragon Ball Z|8.40917777880209
+> The Punisher|8.40642068351782
+> Once Upon a Time in the West|8.39246462035245
+> Gravity Falls|8.37754699527723
+> Archer|8.36939039174198
+> WALL·E|8.36841007903359
+> Raiders of the Lost Ark|8.36481903787728
+> Deadwood|8.36470750470811
+> The Shining|8.36361337967726
+> Alien|8.36016881388079
+> Hannibal|8.35983302764669
+> Cinema Paradiso|8.35957495042745
+> Grave of the Fireflies|8.35726612306467
+> Apocalypse Now|8.3486979965944
+> Community|8.34004164140286
+> Oldboy|8.33918347035718
+> Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb|8.33289212880501
+> Mother's Mercy|8.32414072917715
+> Dead Freight|8.32085173250631
+> The Newsroom|8.31434836836686
+> Life|8.30942095143854
+> Once Upon a Time in America|8.30282115285547
+> The Day Will Come When You Won't Be|8.30197070550736
+> The Handmaid's Tale|8.29633512394214
+> Star Trek: The Next Generation|8.29329135281318
+> The Shield|8.29304731723817
+> Spider-Man: Into the Spider-Verse|8.29203432578868
+> Batman: Arkham City|8.28693239509784
+> Winter Is Coming|8.2810009189924
+> Inglourious Basterds|8.27659656836095
+> American Beauty|8.27332825181571
+> The Elder Scrolls V: Skyrim|8.27235242256396
+> Spartacus: Gods of the Arena|8.27221657516085
+> Reservoir Dogs|8.26841515830753
+> Only Fools and Horses....|8.26581581972896
+> Making a Murderer|8.26340252861656
+> Requiem for a Dream|8.26273092281336
+> Justified|8.26272144747106
+> A Clockwork Orange|8.26222938599774
+> Toy Story 3|8.26215634196584
+> Scarface|8.26088182528473
+> Dragon Ball Z|8.25847048755127
+> Full Metal Jacket|8.25751444284951
+> Sunset Blvd.|8.25611327837123
+> How I Met Your Mother|8.25248238490923
+> Taboo|8.24783607539992
+> Wan pîsu|8.24678697695287
+> The Night Of|8.24509501193657
+> Brooklyn Nine-Nine|8.23945989825127
+> Stormborn|8.2372753476502
+> You Win or You Die|8.23533473296722
+> Entourage|8.23229255881654
+> Gliding Over All|8.22707641128133
+> Full Measure|8.225603082055
+> Amadeus|8.22538423074943
+> Like Stars on Earth|8.22519273943854
+> Vertigo|8.2220783059441
+> Your Name.|8.22073441544124
+> Mr. Bean|8.21964782748674
+> Friday Night Lights|8.21334034969481
+> North by Northwest|8.20908531034635
+> Love, Death & Robots|8.20778737837368
+> Say My Name|8.19694471743776
+> Form and Void|8.18476616705578
+> Batman Begins|8.17986634440062
+> Mizumono|8.17706415344998
+> V for Vendetta|8.17482490022125
+> Die Hard|8.16702464148208
+> The Lying Detective|8.16643435801832
+> American Crime Story|8.15790557622382
+> Mhysa|8.15270053249455
+> Lock, Stock and Two Smoking Barrels|8.15250646946319
+> Salud|8.15227180657325
+> Naruto: Shippûden|8.14916133217556
+> Casino|8.14412310869933
+> Cobra Kai|8.14108235844598
+> The Apartment|8.14085933514155
+> Bron/Broen|8.13865557333552
+> Unforgiven|8.1330298114974
+> Batman: Arkham Asylum|8.12831795779472
+> Sense8|8.11912942828882
+> Uncharted 2: Among Thieves|8.11731143126135
+> Chinatown|8.11558674914876
+> Spaced|8.11554023514512
+> Ash vs Evil Dead|8.11151020926832
+> Stargate SG-1|8.11134961457773
+> The Old Gods and the New|8.11023476925765
+> Banshee|8.10885697581364
+> The Great Game|8.10782834795509
+> My Neighbor Totoro|8.10739152013723
+> Grand Theft Auto: Vice City|8.10721611869678
+> The Secret Fate of All Life|8.10432420099696
+> Green Book|8.10416336430184
+> Dragonstone|8.10390183144106
+> Ozark|8.10068896405137
+> The Americans|8.09966983371031
+> The Pointy End|8.09881614160239
+> Chapter Eight: The Upside Down|8.09035389542619
+> The Kid|8.08077032758573
+> Wiedzmin 3: Dziki Gon|8.07797924410089
+> Finding Nemo|8.07529870818948
+> Catch Me If You Can|8.07051610287161
+> Orphan Black|8.07002379309744
+> Black Books|8.06955072624673
+> Lucifer|8.06884764577533
+> Red Dead Redemption II|8.06727339730973
+> The Grand Budapest Hotel|8.06651179760502
+> Blade Runner|8.06624597605113
+> The Sign of Three|8.06611885173051
+> Neon Genesis Evangelion|8.06427745020353
+> Fargo|8.06234069852715
+> The Pacific|8.0612049013311
+> Prisoners|8.06011559256447
+> Blackadder II|8.05983344666613
+> Aynabaji|8.05717393907875
+> Dragon Ball|8.05677158827952
+> The Seventh Seal|8.05445696150858
+> The Kingsroad|8.05278998985812
+> Kissed by Fire|8.05264210757222
+> PK|8.05007393420026
+> Rush|8.04720689532676
+> Blackadder the Third|8.0448737699867
+> Hacksaw Ridge|8.0442054844332
+> The Princess Bride|8.04253989296224
+> Live Free or Die|8.04137263567529
+> Platoon|8.04126161832423
+> Monty Python's Life of Brian|8.03858160516612
+> Breaker of Chains|8.03505144866563
+> Chuck|8.03060527406162
+> Generation Kill|8.02910208395395
+> Gone with the Wind|8.02353313127922
+> Samurai Champloo|8.0222157444114
+> White Collar|8.01771309903699
+> Before Sunrise|8.01628627117169
+> Dragon Ball|8.01567365069023
+> Crazy Handful of Nothin'|8.01343407839935
+> The Originals|8.01169302503647
+> Cripples, Bastards, and Broken Things|8.0093694466685
+> The Treasure of the Sierra Madre|8.00863758684432
+> Assassin's Creed II|8.0073607771509
+> Poirot|8.00735413825911
+> Father Ted|8.00439551912748
+> Harakiri|8.00393458244481
+> Ben-Hur|8.00230231198214
+> The Knick|8.00220895768735
+> The Elephant Man|8.00184985086577
+> Drishyam|8.00139720770759
+> Yojimbo|8.00112179159956
+> The Chaos Class Failed the Class|7.99969878434065
+> Young Justice|7.99812768218669
+> Walk of Punishment|7.99762774008452
+> Rabid Dog|7.99196456936821
+> The Wrath of the Lamb|7.99031199925437
+> Tosun Pasa|7.99010086736532
+> BioShock Infinite|7.98846991222495
+> North & South|7.98836217640203
+> Behzat Ç.: Bir Ankara Polisiyesi|7.98791785529365
+> The North Remembers|7.98725514748828
+> Whose Line Is It Anyway?|7.98539940021142
+> If-Then-Else|7.98444509172149
+> Dekalog|7.979736917407
+> Misfits|7.97888217711935
+> Fleabag|7.97757943058522
+> Ikiru|7.9769724126397
+> Shut Up and Dance|7.97623942451994
+> Star Wars: Episode VII - The Force Awakens|7.97572871750895
+> Slumdog Millionaire|7.97450444918599
+> Monsters, Inc.|7.97442074953714
+> Sin City|7.97332428563456
+> Cool Hand Luke|7.97267217860542
+> Black Sails|7.97099428635311
+> Chapter Eight: The Mind Flayer|7.97062479830545
+> X-Men: Days of Future Past|7.96959676665842
+> Ratatouille|7.96765839163265
+> Akira|7.96732062408623
+> In the Name of the Father|7.9672149367761
+> Criminal Minds|7.9649281832761
+> Jaws|7.96335989639978
+> The Red Woman|7.96134687525878
+> Her|7.96033174022273
+> Barry Lyndon|7.9598695041516
+> The Daily Show|7.95940547702021
+> La Haine|7.95908272598357
+> Network|7.95873338040187
+> Children of Heaven|7.95835809829395
+> On the Waterfront|7.95623675517796
+> Fallout 3|7.95622292771366
+-------------------------------
