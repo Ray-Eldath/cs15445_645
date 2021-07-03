@@ -2,12 +2,15 @@
 
 : > result
 
+failed=0
+total=0
 for i in {1..20} ; do
   a=$(awk -v RS= "{ if (NR == $i) { print } }" answer.sql | sed "s/--.*//g")
   if [ -z "$a" ]; then
     break
   fi
   echo "case $i"
+  let "total++"
   echo
 
   s=$(awk -v RS= "{ if (NR == $i) { print } }" sql.sql | sed "s/--.*//g")
@@ -24,6 +27,7 @@ for i in {1..20} ; do
   fi
 
   if [ "$dr" -ne 0 ]; then
+    let "failed++"
     echo "case $i" >> result
     echo ------------------------------ >> result
     echo answer >> result
@@ -41,5 +45,15 @@ for i in {1..20} ; do
 
   echo "-------------------------------"
 done
+
+echo "-------------------------------" >> result
+echo total: $total
+echo passed: $[$total - $failed]
+echo failed: $failed
+
+echo "-------------------------------" >> result
+echo total: $total >> result
+echo passed: $[$total - $failed] >> result
+echo failed: $failed >> result
 
 vim result
